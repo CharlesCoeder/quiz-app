@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:quiz_app/start_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -10,13 +11,16 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Quiz App',
-      theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.orange),
-        useMaterial3: true,
-      ),
-      home: const Scaffold(
-        body: Center(child: Text("Quiz App")),
+      home: Scaffold(
+        body: Container(
+          decoration: const BoxDecoration(
+            gradient: LinearGradient(
+                colors: [Colors.purple, Colors.orange],
+                begin: Alignment.topCenter,
+                end: Alignment.bottomCenter),
+          ),
+          child: const StartScreen(),
+        ),
       ),
     );
   }
