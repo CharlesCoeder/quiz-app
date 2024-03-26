@@ -9,6 +9,7 @@ const questions = [
       'Giraffe',
       'Hippopotamus',
     ],
+    1,
   ),
   QuizQuestion(
     'Which animal likes to wear a tuxedo?',
@@ -18,6 +19,7 @@ const questions = [
       'Zebra',
       'Turtle',
     ],
+    0,
   ),
   QuizQuestion(
     'Who has the most epic beard?',
@@ -27,5 +29,6 @@ const questions = [
       'George Salayka',
       'Santa Claus',
     ],
+    2,
   ),
 ];
