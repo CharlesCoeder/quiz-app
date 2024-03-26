@@ -31,4 +31,34 @@ const questions = [
     ],
     2,
   ),
+  QuizQuestion(
+    "What is Ed's brother's name?",
+    [
+      'Goku',
+      'Luffy',
+      'Scar',
+      'Alphonse',
+    ],
+    3,
+  ),
+  QuizQuestion(
+    'What is the most common time signature in music?',
+    [
+      '3/4',
+      '4/4',
+      '6/8',
+      '7/11',
+    ],
+    1,
+  ),
+  QuizQuestion(
+    'Who is not a hobbit?',
+    [
+      'Frodo',
+      'Sam',
+      'Pippen',
+      'Gandalf',
+    ],
+    3,
+  ),
 ];
